@@ -7,7 +7,6 @@ git branch -D master develop 删除本地库develop
 
 git status 查看当前状态 
 
-<<<<<<< HEAD
 git commit 提交 
 git commit -am "init" 提交并且加注释 
 git commit -a 提交当前repos的所有的改变
@@ -20,9 +19,9 @@ git commit -m "remove" 移除文件(从Git中删除)
 git push origin master 将文件给推到服务器上 
 git push origin master:develop
 git push origin master:hb-dev 将本地库与服务器上的库进行关联
-=======
+
 git push -u origin master //第一次推送时使用-u参数不仅壶把本地的master分支内容推送给远程的master分支，还会把本地的master分支和远程的master分支关联起来。将你的本地仓库提交到github中的仓库
->>>>>>> origin/master
+
 
 git remote add origin git@192.168.1.119:ndshow 
 git remote show origin 显示远程库origin里的资源 
@@ -54,9 +53,11 @@ git log 看你commit的日志
 git diff 查看尚未暂存的更新
 git diff --cached 或 $ git diff --staged 查看尚未提交的更新
 
-<<<<<<< HEAD
 git stash push 将文件给push到一个临时空间中
 git stash pop 将文件从临时空间pop下来
-=======
+
 git branch -d xxx //删除分支
->>>>>>> origin/master
+
+
+
+
