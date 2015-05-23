@@ -4,9 +4,7 @@ git add //将改动的地方添加到版本管理器
 
 git commit -m "changes something" //提交到本地的版本控制库里
 
-git push -u origin master //
-
-第一次推送时使用-u参数不仅壶把本地的master分支内容推送给远程的master分支，还会把本地的master分支和远程的master分支关联起来。将你的本地仓库提交到github中的仓库
+git push -u origin master //第一次推送时使用-u参数不仅壶把本地的master分支内容推送给远程的master分支，还会把本地的master分支和远程的master分支关联起来。将你的本地仓库提交到github中的仓库
 
 git status //可以看到距离上次提交不一样的地方
 
